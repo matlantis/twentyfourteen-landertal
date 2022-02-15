@@ -1,0 +1,53 @@
+/*
+Theme Name:     Twentyfourteen (Landertal Remix)
+Description:    Customized for landertal.de
+Author:         Martin Puttke
+Template:       twentyfourteen
+*/
+@import url("../twentyfourteen/style.css");
+
+/* .entry-title { */
+/* 	text-transform: none; */
+/* } */
+
+.lcp_title {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.0909090909;
+	text-transform: uppercase;
+}
+
+.lcp_date:before {
+		content: "\f303";
+		margin-left: 1px;
+		position: relative;
+		top: 1px;
+}
+
+.lcp_author:before {
+		content: "\f304";
+}
+
+.lcp_date:before, .lcp_author:before {
+        -webkit-font-smoothing: antialiased;
+		display: inline-block;
+		font: normal 16px/1 Genericons;
+		text-decoration: inherit;
+		vertical-align: text-bottom;
+	}
+	
+.lcp_date, .lcp_author {
+	clear: both;
+	color: #767676;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.3333333333;
+	text-transform: uppercase;
+}
+
+.lcp_cats {
+    font-size: 12px;
+    font-weight: 700;
+	text-transform: uppercase;
+	color: #2b2b2b;
+}
